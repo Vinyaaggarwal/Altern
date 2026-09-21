@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C/C++ compiled binaries and objects
+*.o
+*.obj
+*.exe
+-.o
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyTorch / HuggingFace model cache (if downloaded locally)
+checkpoints/
+lora_output/
+*.pt
+*.bin
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
